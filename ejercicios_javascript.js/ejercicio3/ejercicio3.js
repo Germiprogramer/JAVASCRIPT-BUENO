@@ -1,0 +1,1 @@
+console.log("Hola soy un mensaje que se ve solo en la consola")
