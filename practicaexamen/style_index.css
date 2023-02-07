@@ -1,0 +1,71 @@
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+    all: unset;
+    display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+ 
+}
+
+header{
+    background-color: rgb(100, 143, 181);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+#div0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#div1 {
+    margin-right: 80px;
+}
+
+#div2 {
+    display: flex;
+
+}
+
+#div3 {
+    margin-top: 60px;
+}
+
+.parrafo1 {
+    margin: 20px;
+    font-size: 10px;
+    color: white;
+}
+
+.enlace1 {
+    margin: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.green{
+    border-style: ridge;
+    border-color: green;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px;
+    color: green;
+    text-align: center;
+    
+}
