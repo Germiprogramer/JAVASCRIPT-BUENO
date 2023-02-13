@@ -18,7 +18,7 @@
         <div>
             <form>
                 <p class="parrafoformulario">USUARIO-CORREO</p>
-                <input class="input" placeholder="MENSAJE">
+                <input class="input" placeholder="MENSAJE" id="correo">
                 <p class="parrafoformulario">germanllorente-llorentemunozgerman@gmail.com</p>
                 <input class="input" placeholder="test de mensaje">
             </form>
@@ -26,5 +26,17 @@
         <footer>
             <p class="parrafofooter">&#169 examen de informatica</p>
         </footer>
+        <script>
+            var correo = document.getElementById("correo");
+            correo.addEventListener("keyup", funcion)
+            function funcion() {
+                if (correo.value == "hola") {
+                    correo.style.backgroundColor = "green";
+                    correo.style.color = "white";
+                }
+            }
+            
+        </script>
     </body>
+    
 </html>

@@ -88,6 +88,11 @@ h2{
 
 }
 
+:focus .green{
+    background-color: red;
+    color: white;
+}
+
 #div_central {
     display: flex;
     align-items: center;
